@@ -1,0 +1,58 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.filters {
+  display: flex;
+}
+
+.filter-button {
+  border-width: 1px;
+  margin-right: 5px;
+  background-color: white;
+  padding: 7px;
+}
+
+.filter-button:hover {
+  background-color: rgb(215, 215, 215);
+  cursor: pointer;
+}
+
+.selected {
+  background-color: dimgray;
+  color: white;
+  border: none;
+}
+
+.selected:hover {
+  background-color: dimgray;
+}
+
+.pictures {
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  height: 2000px;
+  justify-content: flex-start;
+  align-content: stretch;
+}
+
+.picture {
+  margin: 7px;
+  width: 300px;
+  box-sizing: content-box;
+}
+
+img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+
+
